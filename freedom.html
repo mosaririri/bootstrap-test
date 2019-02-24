@@ -11,6 +11,7 @@
         <script src="html5shiv.js"></script>
         <script src="respond.js"></script>
     <![endif]-->
+    <!-- <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet"> -->
     <title>Hello, world!</title>
     <style type="text/css">
     
@@ -24,15 +25,15 @@
     }
 
     .container{
-        width:1024px;
+        /* width:1024px; */
         height:300px;
         overflow: auto;
         border: 1px solid #000;
-        margin:5px auto; 
+        margin:5px 10px; 
     }
 
     thead{
-        background: pink;
+        background: rgb(255, 208, 216);
     }
 
     .table>thead>tr>th,.table>tbody>tr>th,.table>tfoot>tr>th,.table>thead>tr>td,.table>tbody>tr>td,.table>tfoot>tr>td {
@@ -62,10 +63,10 @@
     }
 
     .table-hover>tbody>tr:hover {
-        background-color: rgb(214, 164, 164);
+        background-color: rgb(255, 199, 243);
     }
 
-    .inRow{
+    .inCol{
         /* height: 23px; */
         border: 1px solid grey;
     }
@@ -78,20 +79,43 @@
         height:50%;
     }
 
-    .inRow.h_100per{
+    .inCol.h_100per{
         vertical-align: middle;
         text-align: center;
         line-height: 50px;
     }
 
     .row_even{
-        background: rgb(143, 190, 143);
+        background: rgb(255, 246, 230);
+    }
+
+    .table .btn{
+        padding:1px 5px;
+        left:-17px;
+    }
+
+    .biko{
+        height:24px;
+    }
+    
+    /* .biko:hover{
+        height:200px;
+    } */
+
+    .biko:focus{
+        height:200px;
     }
     </style>
   </head>
   <body>
     <h1>Hello, world!ですよ-</h1>
 
+    <div class="input-group">
+            <input type="text" class="form-control ml-3" placeholder="テキスト入力欄">
+            <span class="input-group-btn">
+                <button type="button" class="btn btn-default">ボタン</button>
+            </span>
+        </div>
 
     <div class="container">
     <div class="table-result table-responsive">
@@ -99,714 +123,733 @@
             <thead>
                 <tr>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_100per"><div>a-1</div></div>
+                        <div class="inCol h_100per"><div>a-1</div></div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                     <th scope="col">
-                        <div class="inRow h_50per">a-1</div>
-                        <div class="inRow h_50per">a-2</div>
+                        <div class="inCol h_50per">a-1</div>
+                        <div class="inCol h_50per">a-2</div>
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <th scope="row">
-                        <div class="inRow h_50per"><input type="text"></div>
-                        <div class="inRow h_50per"><input type="text"></div> 
+                        <div class="inCol h_50per">
+                            <div class="input-group mb-3">
+                                <input type="text" clsss="form-control">
+                                <div class="input-group-btn">
+                                        <button type="button" class="btn btn-default">
+                                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                        </button>
+                                </div>    
+                            </div>
+                            
+                        </div>
+                        <div class="inCol h_50per"><input type="text"></div> 
                     </th>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                            <div class="inCol h_50per">
+                                    <div class="input-group mb-3">
+                                        <input type="text" clsss="form-control">
+                                        <div class="input-group-btn">
+                                                <button type="button" class="btn btn-default">
+                                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                                </button>
+                                        </div>    
+                                    </div>
+                            </div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
-                    <td><div class="inRow h_100per">b-1</div></td>
+                    <td><div class="inCol h_100per">b-1</div></td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
-                    </td>
-                    <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
-                    </td>
-                    <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
-                    </td>
-                    <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
+                    </td>
+                    <td>
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
+                    </td>
+                    <td>
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
+                    </td>
+                    <td>
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                 </tr>
             <tr class="row_even">
                     <th scope="row">
-                        <div class="inRow h_50per"><input type="text"></div>
-                        <div class="inRow h_50per"><input type="text"></div> 
+                        <div class="inCol h_50per"><input type="text"></div>
+                        <div class="inCol h_50per"><input type="text"></div> 
                     </th>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per"><textarea class="biko"></textarea></div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
-                    <td><div class="inRow h_100per">b-1</div></td>
+                    <td><div class="inCol h_100per">b-1</div></td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
-                    </td>
-                    <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
+                    </td>
+                    <td>
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                 </tr>
                 <tr>
                     <th scope="row">
-                        <div class="inRow h_50per"><input type="text"></div>
-                        <div class="inRow h_50per"><input type="text"></div> 
+                        <div class="inCol h_50per"><input type="text"></div>
+                        <div class="inCol h_50per"><input type="text"></div> 
                     </th>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
-                    <td><div class="inRow h_100per">b-1</div></td>
+                    <td><div class="inCol h_100per">b-1</div></td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
-                    </td>
-                    <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
+                    </td>
+                    <td>
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                 </tr>
                 <tr class="row_even">
                     <th scope="row">
-                        <div class="inRow h_50per"><input type="text"></div>
-                        <div class="inRow h_50per"><input type="text"></div> 
+                        <div class="inCol h_50per"><input type="text"></div>
+                        <div class="inCol h_50per"><input type="text"></div> 
                     </th>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
-                    <td><div class="inRow h_100per">b-1</div></td>
+                    <td><div class="inCol h_100per">b-1</div></td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
-                    </td>
-                    <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
+                    </td>
+                    <td>
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                 </tr>
                 <tr>
                     <th scope="row">
-                        <div class="inRow h_50per"><input type="text"></div>
-                        <div class="inRow h_50per"><input type="text"></div> 
+                        <div class="inCol h_50per"><input type="text"></div>
+                        <div class="inCol h_50per"><input type="text"></div> 
                     </th>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
-                    <td><div class="inRow h_100per">b-1</div></td>
+                    <td><div class="inCol h_100per">b-1</div></td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
-                    </td>
-                    <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
+                    </td>
+                    <td>
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                 </tr>
                 <tr class="row_even">
                     <th scope="row">
-                        <div class="inRow h_50per"><input type="text"></div>
-                        <div class="inRow h_50per"><input type="text"></div> 
+                        <div class="inCol h_50per"><input type="text"></div>
+                        <div class="inCol h_50per"><input type="text"></div> 
                     </th>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
-                    <td><div class="inRow h_100per">b-1</div></td>
+                    <td><div class="inCol h_100per">b-1</div></td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
-                    </td>
-                    <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
+                    </td>
+                    <td>
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                 </tr>
                 <tr>
                     <th scope="row">
-                        <div class="inRow h_50per"><input type="text"></div>
-                        <div class="inRow h_50per"><input type="text"></div> 
+                        <div class="inCol h_50per"><input type="text"></div>
+                        <div class="inCol h_50per"><input type="text"></div> 
                     </th>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
-                    <td><div class="inRow h_100per">b-1</div></td>
+                    <td><div class="inCol h_100per">b-1</div></td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
-                    </td>
-                    <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
+                    </td>
+                    <td>
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                 </tr>
                 <tr class="row_even">
                     <th scope="row">
-                        <div class="inRow h_50per"><input type="text"></div>
-                        <div class="inRow h_50per"><input type="text"></div> 
+                        <div class="inCol h_50per"><input type="text"></div>
+                        <div class="inCol h_50per"><input type="text"></div> 
                     </th>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
-                    <td><div class="inRow h_100per">b-1</div></td>
+                    <td><div class="inCol h_100per">b-1</div></td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
-                    </td>
-                    <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
+                    </td>
+                    <td>
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                 </tr>
                 <tr>
                     <th scope="row">
-                        <div class="inRow h_50per"><input type="text"></div>
-                        <div class="inRow h_50per"><input type="text"></div> 
+                        <div class="inCol h_50per"><input type="text"></div>
+                        <div class="inCol h_50per"><input type="text"></div> 
                     </th>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
-                    <td><div class="inRow h_100per">b-1</div></td>
+                    <td><div class="inCol h_100per">b-1</div></td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
-                    </td>
-                    <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
+                    </td>
+                    <td>
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                 </tr>
                 <tr class="row_even">
                     <th scope="row">
-                        <div class="inRow h_50per"><input type="text"></div>
-                        <div class="inRow h_50per"><input type="text"></div> 
+                        <div class="inCol h_50per"><input type="text"></div>
+                        <div class="inCol h_50per"><input type="text"></div> 
                     </th>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
-                    <td><div class="inRow h_100per">b-1</div></td>
+                    <td><div class="inCol h_100per">b-1</div></td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
-                    </td>
-                    <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
+                    </td>
+                    <td>
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                 </tr>
                 <tr>
                     <th scope="row">
-                        <div class="inRow h_50per"><input type="text"></div>
-                        <div class="inRow h_50per"><input type="text"></div> 
+                        <div class="inCol h_50per"><input type="text"></div>
+                        <div class="inCol h_50per"><input type="text"></div> 
                     </th>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
-                    <td><div class="inRow h_100per">b-1</div></td>
+                    <td><div class="inCol h_100per">b-1</div></td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
-                    </td>
-                    <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                     <td>
-                        <div class="inRow h_50per">b-1</div>
-                        <div class="inRow h_50per">b-2</div>     
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
+                    </td>
+                    <td>
+                        <div class="inCol h_50per">b-1</div>
+                        <div class="inCol h_50per">b-2</div>     
                     </td>
                 </tr>
                     
@@ -819,5 +862,20 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-  </body>
+    <script type="text/javascript">
+       $('.btn-default').click(
+           function(){ 
+                alert('hoge');
+           });
+        
+        $('.biko').focus(
+        function(){
+            $(this).parent().css('height','200px');
+        });
+        $('.biko').blur(
+        function(){
+            $(this).parent().css('height','24px');
+        });
+    </script>
+</body>
 </html>
